@@ -1,52 +1,36 @@
-# Chef
-.chef/*.pem
-.chef/encrypted_data_bag_secret
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Ruby
-.rake_test_cache
-.rvmrc
-.rbenv-version
+# Folder config file
+Desktop.ini
 
-# Emacs
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-.elc
-auto-save-list
-tramp
-.\#*
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Emacs org-mode
-.org-id-locations
-*_archive
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# SublimeText
-*.sublime-workspace
+# =========================
+# Operating System Files
+# =========================
 
-# TextMate
-*.tmproj
-*.tmproject
-tmtags
+# OSX
+# =========================
 
-# Vim
-.*.s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-*~
-
-# OS X
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
 ._*
+
+# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
